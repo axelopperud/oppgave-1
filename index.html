@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <article class="overskrift">År</article>
+        <article class="overskrift"></article>
+        <article class="tykkskrift gray">Måned</article>
+        <article class="tykkskrift gray">Tjent</article>
+        <article class="white">Januar</article>
+        <article class="white">12 500kr</article>
+        <article class="gray">Februar</article>
+        <article class="gray">17 800kr</article>
+        <article class="white">Mars</article>
+        <article class="white">28 300kr</article>
+        <article class="gray">April</article>
+        <article class="gray">15 750kr</article>
+        <article class="white">Mai</article>
+        <article class="white">14 900kr</article>
+        <article class="gray">Juni</article>
+        <article class="gray">11 200kr</article>
+        <article class="white">Juli</article>
+        <article class="white">16 400kr</article>
+        <article class="gray">August</article>
+        <article class="gray">3131231kr</article>
+        <article class="white">September</article>
+        <article class="white">31kr</article>
+        <article class="gray">Oktober</article>
+        <article class="gray">31909kr</article>
+        <article class="white">November</article>
+        <article class="white">8888kr</article>
+        <article class="gray">Desember</article>
+        <article class="gray">24kr</article>
+        <article class="bottom">Totalt</article>
+        <article class="bottom">500000kr</article>
+    </section>
+    
+    <style>
+        .bottom {
+            background-color: #3498db;
+        }
+        .tykkskrift {
+            font-weight: bold;
+        }
+        .overskrift {
+            background-color: #e74c3c;
+            text-align: right;
+        }
+        section {
+            display: grid;
+            grid-template-columns:400px 200px;
+            grid-template-rows: repeat( 200px);
+        }
+        article {
+            border: 1px;
+            padding: 10px;
+        }
+        .gray {
+            background-color: #f2f2f2;
+        }
+        .white {
+            background-color: white;
+        }
+    </style>
+</body>
+</html>
